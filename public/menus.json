@@ -1,0 +1,77 @@
+[
+  {
+    "path": "home",
+    "meta": {
+      "title": "首页"
+    }
+  },
+  {
+    "path": "/loan",
+    "component": "layout",
+    "redirect": "/loan-input/index",
+    "meta": {
+      "roles": ["input"],
+      "title": "贷款管理"
+    },
+    "children": [
+      {
+        "path": "/loan/index",
+        "path1": "/loan/Index",
+        "component": "loan/index",
+        "name": "loan-input/Index",
+        "meta": {
+          "title": "贷款申请"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/input-manager",
+    "component": "layout",
+    "redirect": "/input-manager/index",
+    "meta": {
+      "roles": ["input"],
+      "title": "申请管理"
+    },
+    "children": [
+      {
+        "path": "/application-manage/index",
+        "path1": "/application-manage/Index",
+        "component": "/application-manage/index",
+        "name": "/application-manage/Index",
+        "meta": {
+          "title": "申请列表"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/loan-approve",
+    "component": "layout",
+    "redirect": "/loan-approve/first",
+    "meta": {
+      "roles": ["approve"],
+      "title": "贷款审批"
+    },
+    "children": [
+      {
+        "path": "/loan-approve/first",
+        "path1": "/loan-approve/First",
+        "component": "/loan-approve/first",
+        "name": "/loan-approve/First",
+        "meta": {
+          "title": "初审"
+        }
+      },
+      {
+        "path": "/loan-approve/end",
+        "path1": "/loan-approve/End",
+        "component": "/loan-approve/end",
+        "name": "/loan-approve/End",
+        "meta": {
+          "title": "初审"
+        }
+      }
+    ]
+  }
+]
