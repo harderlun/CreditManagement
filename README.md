@@ -34,4 +34,4 @@ npm run build
 ![image-20240404120457811](https://raw.githubusercontent.com/harderlun/CreditManagement/master/public/screenshots/image-20240404120457811.png)
 
 权限管理
-![image-20240404120513681](.https://raw.githubusercontent.com/harderlun/CreditManagement/master/public/screenshots/image-20240404120513681.png)
+![image-20240404120513681](https://raw.githubusercontent.com/harderlun/CreditManagement/master/public/screenshots/image-20240404120513681.png)
